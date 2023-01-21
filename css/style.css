@@ -1,19 +1,19 @@
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
-    padding: 0;
+    padding: 0 0 5px 0;
 }
 
 h1 {
     font-size: 50px;
 }
 
-.orange_colour {
-    color: orange;
+h2 {
+    font-size: 40px;
 }
 
-section {
-    display: flex;
+.orange_colour {
+    color: orange;
 }
 
 .header_half {
@@ -37,5 +37,29 @@ section {
 .top_banner {
     background-image: url("../images/top-bg-img.jpg");
     background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+}
 
+.experience_container {
+    display: flex;
+}
+
+.title_text {
+    margin-left: 5%;
+}
+
+.experience_half {
+    width: 50%;
+    margin-left: 5%;
+    margin-right: 3%;
+    padding-left: 15px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 40px gray;
+    border-left: 8px solid orange;
+    height: 380px;
+}
+
+footer p{
+    text-align: center;
 }
